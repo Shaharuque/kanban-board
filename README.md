@@ -1,4 +1,4 @@
 - For running the json server(Initial todos list is stored )
-  npm install
-  cd server
-  npm start
+  - npm install
+  - cd server
+  - npm start
