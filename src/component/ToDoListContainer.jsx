@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { DndContext } from "@dnd-kit/core";
-import { FaBeer } from "react-icons/fa";
+import { TbNotes } from "react-icons/tb";
 
 import Draggable from "./Draggable";
 import Droppable from "./Droppable";
@@ -87,7 +87,10 @@ const ToDoListContainer = ({ todos }) => {
       <div className="container">
         {lists.map((item) => (
           <Droppable key={item} id={item}>
-            <h1 className="title">{item.toUpperCase()}</h1>
+            <h1 className="title">
+              {item.toUpperCase()}
+              <TbNotes style={{ marginTop: "1px" }}></TbNotes>
+            </h1>
             {getTasks(item)?.map((task) => (
               <Draggable key={task.id} id={task.id}>
                 <h1 className="title">{task.name}</h1>
