@@ -1,19 +1,14 @@
-# lws-json-server-todos
-
-Example in memory todos api with json-server by Learn with Sumit
+# json-server-todos
 
 # Installation
 
-```bash
-git clone git@github.com:learnwithsumit/lws-json-server-todos.git
-cd lws-json-server-todos
-npm install json-server
-npm start
-```
+- npm install
+- cd server
+- npm start
 
 Now opens:
 
-- http://localhost:3000
+- http://localhost:9001
 
 You now have a full REST API. Test with POSTMAN or any other REST Client):
 
