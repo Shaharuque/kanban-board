@@ -12,9 +12,6 @@ const lists = ["todo", "inprogress", "done"];
 // const initialTasks = [
 //   { id: 1, name: "Learning JS", type: "todo" },
 //   { id: 2, name: "Learning React.js", type: "todo" },
-//   { id: 3, name: "Learning Express.js", type: "todo" },
-//   { id: 4, name: "Learning MongoDB", type: "todo" },
-//   { id: 5, name: "Becoming a fullstack developer", type: "todo" },
 // ];
 
 const ToDoListContainer = ({ todos }) => {
@@ -30,18 +27,6 @@ const ToDoListContainer = ({ todos }) => {
   const onDragEnd = (event) => {
     const { over, active } = event;
     console.log({ over, active });
-    // setTasks(
-    //   tasks.map((item) => {
-    //     if (item.id === active.id) {
-    //       return {
-    //         ...item,
-    //         type: over.id,
-    //       };
-    //     }
-
-    //     return item;
-    //   })
-    // );
     dispatch(
       storedTasks(
         tasks.map((item) => {
