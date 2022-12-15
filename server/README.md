@@ -20,36 +20,13 @@ You now have a full REST API. Test with POSTMAN or any other REST Client):
 Retrieve all (GET):
 
 ```bash
-GET http://localhost:3000/todos
-```
-
-Retrieve one (GET):
-
-```bash
-GET http://localhost:3000/todos/1
+GET http://localhost:9001/todo_list
 ```
 
 Post a todo (POST):
-
-```bash
-POST http://localhost:3000/todos text="Learn Redux" completed=false color="red"
-```
-
-Update todo (PUT):
-
-```bash
-PUT http://localhost:3000/todos/3 name="Learn Redux with Learn with Sumit" completed=true color="green"
-```
-
-Delete todo (DELETE):
-
-```bash
-DELETE http://localhost:3000/todos/1
-```
-
+http://localhost:9001/todo_list
 
 # Links
 
 - https://github.com/typicode/json-server
 - Jswon view Chrome plugin: https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
-- Learn with Sumit official website: htts://learnwithsumit.com
