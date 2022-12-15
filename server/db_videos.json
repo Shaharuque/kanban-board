@@ -1,0 +1,49 @@
+{
+  "todo_list": [
+    {
+      "id": 1,
+      "name": "New Norway",
+      "type": "inprogress"
+    },
+    {
+      "id": 2,
+      "name": "Clean the house",
+      "type": "todo"
+    },
+    {
+      "id": 3,
+      "name": "Tailwind",
+      "type": "todo"
+    },
+    {
+      "id": 4,
+      "name": "Debounce",
+      "type": "todo"
+    },
+    {
+      "id": 5,
+      "name": "SASS",
+      "type": "todo"
+    },
+    {
+      "name": "Car Cleaning",
+      "type": "todo",
+      "id": 7
+    },
+    {
+      "name": "Swimming",
+      "type": "todo",
+      "id": 8
+    },
+    {
+      "name": "Study",
+      "type": "todo",
+      "id": 10
+    },
+    {
+      "name": "Book Reading",
+      "type": "todo",
+      "id": 11
+    }
+  ]
+}
